@@ -1,5 +1,7 @@
 # ✈️ Real-World Aerospace Optimization & Control Problems
 
+> **Note**: This repository showcases a collection of optimization and control theory projects I worked on during my Master's studies in Aerospace Engineering at KTH. These projects demonstrate practical applications of mathematical optimization and control systems in aerospace engineering.
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-f5d7e3)](https://www.python.org/)
 [![PuLP](https://img.shields.io/badge/PuLP-2.7.0-purple)](https://coin-or.github.io/pulp/)
@@ -11,6 +13,7 @@
 This repository contains projects that bridge **optimization** and **control theory** for real-world aerospace problems:
 - Optimize **spare parts distribution & inventory** using MILP/ILP  
 - Implement **control systems** for nonlinear aerospace dynamics (e.g., B747 pitch tracking, four-tank benchmark system)  
+
 
 ---
 
