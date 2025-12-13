@@ -3,6 +3,9 @@
 > **Note**: This repository showcases a collection of optimization and control theory projects I worked on during my Master's studies in Aerospace Engineering at KTH. These projects demonstrate practical applications of mathematical optimization and control systems in aerospace engineering.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Repo Size](https://img.shields.io/github/repo-size/dhruvhaldar/Realistic-aerospace-optimization-problems)](https://github.com/dhruvhaldar/Realistic-aerospace-optimization-problems)
+[![Last Commit](https://img.shields.io/github/last-commit/dhruvhaldar/Realistic-aerospace-optimization-problems)](https://github.com/dhruvhaldar/Realistic-aerospace-optimization-problems/commits/main)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-f5d7e3)](https://www.python.org/)
 [![PuLP](https://img.shields.io/badge/PuLP-2.7.0-purple)](https://coin-or.github.io/pulp/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
@@ -39,7 +42,7 @@ This repository contains projects that bridge **optimization** and **control the
 
 - Python 3.11+ (or PyPy3.11+, but note SciPy is not fully supported in PyPy)  
 - Jupyter Notebook (for running models interactively)  
-- Install dependencies from `requirements_python.txt`:
+- Install dependencies from `requirements.txt`:
   - **Optimization**: PuLP, NumPy, Pandas, Matplotlib  
   - **Control**: SciPy, python-control, Matplotlib  
 
@@ -48,8 +51,8 @@ This repository contains projects that bridge **optimization** and **control the
 ## Installation
 
 ```bash
-git clone https://github.com/dhruvhaldar/AirFleet-Supply-Optimizer.git
-cd AirFleet-Supply-Optimizer
+git clone https://github.com/dhruvhaldar/Realistic-aerospace-optimization-problems.git
+cd Realistic-aerospace-optimization-problems
 
 # Create venv
 python3 -m venv venv
