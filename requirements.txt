@@ -42,3 +42,4 @@ traitlets==5.14.3
 wcwidth==0.2.13
 pandas>=2.2.0
 control
+jinja2
