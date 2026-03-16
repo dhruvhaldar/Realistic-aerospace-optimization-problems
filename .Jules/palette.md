@@ -9,3 +9,7 @@
 ## 2026-03-06 - Accessible HTML Output in Jupyter Notebooks
 **Learning:** When manually generating HTML for visualization outputs in Jupyter Notebooks (like custom styled tables), standard accessibility principles apply but are easily overlooked. Relying solely on color (like green background for optimal vs gray for weak) fails WCAG success criteria for users with visual impairments.
 **Action:** Always include visually hidden (`sr-only`) text alongside color-coded information in HTML outputs. Use proper semantic markup (`aria-label` for tables, `scope="col"` and `scope="row"` for headers) even in programmatic outputs to ensure assistive technologies can correctly parse the data structures.
+
+## 2026-03-16 - Accessible Pandas DataFrames
+**Learning:** Raw pandas DataFrames rendered in Jupyter Notebooks lack screen reader context, making the tabular data inaccessible to visually impaired users.
+**Action:** Always use `.style.set_table_attributes('aria-label="..."')` when displaying DataFrames to ensure the generated HTML table has a descriptive label for assistive technologies.
