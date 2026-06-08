@@ -1,3 +1,3 @@
-## 2026-03-24 - Accessible Semantic HTML Tables in Jupyter
-**Learning:** When generating manual HTML tables to display metrics (like performance results) in Jupyter Notebooks, relying solely on generic tags (`<td><strong>`) or attempting to parse raw Markdown tables via HTML limits accessibility for screen reader users. It's critical to apply WCAG standards to programmatic notebook outputs.
-**Action:** Use explicit semantic HTML tags (`<th scope="col">` and `<th scope="row">`) combined with an `aria-label` for tables. When rendering alongside a Markdown header, split the logic: `display(Markdown("### Title"))` for the header and `display(HTML(html_table))` for the table, ensuring both proper visual hierarchy and semantic structure.
+## 2023-10-27 - Table Hover States in Jupyter Notebooks
+**Learning:** Raw HTML tables in Jupyter Notebooks lack interactive states. Adding a simple CSS hover effect (`tr:hover { filter: brightness(0.95); }`) provides immediate visual feedback, significantly improving the user experience when scanning dense data.
+**Action:** When manually generating HTML tables for performance metrics or data display in Jupyter notebooks, include scoped CSS to add a subtle hover effect to table rows.
